@@ -1,3 +1,5 @@
+library( "ggplot2" )
+
 file <- "data/example.csv"
 
 kSecondsPerDay <- 86400
@@ -43,8 +45,8 @@ for ( segment in unique( data$segment ) ) {
 	}
 
 	plan.df <- data.frame( segment, days, cancelled, remaining )
-	plan.df$cancellation.rate <- round( ( plan.df$cancelled /
-		initial.subscribers ) * 100 )
+	plan.df$cancellation.rate <- ( plan.df$cancelled / initial.subscribers ) *
+		100
 
 	# For the chart, we only need a few columns
 	segments.df <- rbind( segments.df, subset( plan.df,
