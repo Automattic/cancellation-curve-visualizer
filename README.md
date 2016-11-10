@@ -1,6 +1,6 @@
 # Cancellation Curve Visualizer
 
-This R script helps you visualize when users cancel their plans in a SaaS product.
+This R script helps you visualize when users cancel their plans for a SaaS product.
 
 For example, here are the cancellation curves for an example SaaS product with three plans, Gold, Silver, and Bronze:
 
