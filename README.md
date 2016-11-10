@@ -1,10 +1,12 @@
-# Cancellation Curve
+# Cancellation Curve Visualizer
 
 This R script helps you visualize when users cancel their plans in a SaaS product.
 
-For example, here's an example SaaS product with three plans, Gold, Silver, and Bronze:
+For example, here are the cancellation curves for an example SaaS product with three plans, Gold, Silver, and Bronze:
 
 ![Cancellation Curve Example](images/example.png)
+
+This shows is that most users who cancel do so pretty quickly and that long term about 30% of Gold plans, 20% of Silver plans, and 10% of Bronze plans cancel their subscription.
 
 # How to run
 
@@ -35,7 +37,9 @@ You'll need to edit the `file` variable at the top of `cancellation-curve.r` bas
 
 ## Testing the script
 
-Within RStudio, simply load the script using `source("cancellation-curve.r")`. If all went well, it should generate the chart above.
+Within RStudio, simply load the script using `source("cancellation-curve.r")`.
+
+If all went well, it should generate the chart above.
 
 ## Contact
 
