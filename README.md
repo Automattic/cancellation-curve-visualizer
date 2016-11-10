@@ -20,6 +20,8 @@ In order for it to work, all you need to do is to generate a CSV file containing
 2. The unix timestamp when people cancelled the plan (or blank if it hasn't been cancelled)
 3. The name of the plan
 
+You should not include column headers.
+
 Here's an example:
 
 ```
