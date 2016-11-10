@@ -8,7 +8,7 @@ For example, here are the cancellation curves for an example SaaS product with t
 
 This shows is that most users who cancel do so pretty quickly and that long term about 30% of Gold plans, 20% of Silver plans, and 10% of Bronze plans cancel their subscription.
 
-# How to run
+## Installing R
 
 If you've never used R before, you'll need to [install R](https://cran.r-project.org/mirrors.html) and optionally download a tool like [RStudio](https://www.rstudio.com/products/rstudio/download/) to run this script. You'll also need to install the `ggplot2` package with `install.packages("ggplot2")` and use `setwd()` to change the working directory to match the location of this script.
 
